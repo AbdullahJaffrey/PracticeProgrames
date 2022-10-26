@@ -24,11 +24,13 @@ finally:
   
   # To upload a video:
   
+  # for free videos, goto: https://www.videezy.com/
+  
   st.video("https://static.videezy.com/system/resources/previews/000/004/299/original/23.mp4")
   
   # To upload a picture:
   
-  st.audio("https://soundcloud.com/9j6hz3zlokbb/jotaro-vs-dio-part-1?in=user-276538827/sets/random-audio-clips&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing")
+  st.audio("https://www.random.org/audio-noise/?channels=2&volume=100&rate=16000&size=8&date=2022-10-26&format=wav&deliver=browser")
 
 
   # To create title in streamlit:
