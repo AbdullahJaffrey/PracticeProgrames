@@ -1,10 +1,8 @@
 # To Upload the stramlit logo:
 try:
-from PIL import Image
-
-logo = Image.open('https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.svg')
-
-print(logo)
+  from PIL import Image
+  logo = Image.open('https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.svg')
+  print(logo)
 
 ###################################
 
@@ -14,25 +12,26 @@ print(logo)
 
 # To Import streamlit into your system:
 except Exception as e:
-  # e
+  # print(e)
   
 finally:
-  
-import streamlit as st
+  import streamlit as st
 
-# To create title in streamlit:
+  # To create title in streamlit:
 
-st.title('Hello, welcome to my streamlit app!')
+  st.title('Hello, welcome to my streamlit app!')
 
 
-# App link: https://abdullahjaffrey-practiceprograme-pythonintroto-streamlit-vxtc3r.streamlitapp.com/
+  # App link: https://abdullahjaffrey-practiceprograme-pythonintroto-streamlit-vxtc3r.streamlitapp.com/
 
-# To write paragraph:
+  # To write paragraph:
 
-st.write('This is something of a random paragraph!')
+  st.write('This is something of a random paragraph!')
 
-st.write("""rem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+
+  st.write("""rem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
 molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+
 numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
 optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
 obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
