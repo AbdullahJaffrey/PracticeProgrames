@@ -82,11 +82,11 @@ finally:
   st.multiselect('choose a planet',['Jupiter', 'Mars', 'neptune'])
   
   # Displaying code
-  with:
-    if st.multiselect == 'Jupiter':
-      st.write('Hi Jupyter')
-    else:
-      st.write('Hi everyone except jupyter! ')
+  
+  if st.multiselect == 'Jupiter':
+    st.write('Hi Jupyter')
+  else:
+    st.write('Hi everyone except jupyter! ')
 
 
  
