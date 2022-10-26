@@ -83,13 +83,19 @@ finally:
   
   # Displaying code
   
-  if st.multiselect == 'Jupiter':
-    st.write('Hi Jupyter')
-  else:
-    st.write('Hi everyone except jupyter! ')
+  
+  for i in st.multiselect[:]:
+    if i == 'Jupiter':
+      st.write('Hi Jupyter')
+    else:
+      st.write('Hi everyone except jupyter! ')
 
 
- 
+  import streamlit as st
+  import pandas as pd
+  import numpy as np
+  df= pd.DataFrame(np.random.randn(10, 2), columns=['x', 'y'])
+  st.line_chart(df)
   
   
 
