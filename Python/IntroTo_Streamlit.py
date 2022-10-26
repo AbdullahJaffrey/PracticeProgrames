@@ -1,4 +1,11 @@
-!['Streamlit Logo']('https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.svg')
+# To Upload the stramlit logo:
+from PIL import Image
+
+logo = Image.open('https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.svg')
+
+print(logo)
+
+###################################
 
 # To Install streamlit into your system: pip install streamlit
 # To test if the installation is working or not : streamlit hello
