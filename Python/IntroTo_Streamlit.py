@@ -92,7 +92,9 @@ finally:
   df1 = pd.DataFrame({'Name':['Abdullah', 'Noah','Salis'],'Worth':[106, 612, 212], 'Year':['2007', '2022','1995']})
   st.write(df1)
   
-  st.area_chart(x=df1['Worth'], y=df1['Year'])
+  st.area_chart(df1['Worth'])
+  
+  st.altair_chart(x=df1['Worth'], y=df1['Year'])
      
 
 
