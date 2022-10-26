@@ -90,9 +90,9 @@ finally:
   st.line_chart(df)
   
   df1 = pd.DataFrame({'Name':['Abdullah', 'Noah','Salis'],'Worth':[106, 612, 212], 'Year':['2007', '2022','1995']})
-  print(df1.head())
+  st.write(df1)
   
-  st.area_chart(df1)
+  st.area_chart(df1['Worth'],df1['Year'])
      
 
 
