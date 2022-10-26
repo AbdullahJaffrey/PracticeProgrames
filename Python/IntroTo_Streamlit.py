@@ -79,16 +79,16 @@ finally:
 
   # To create a drop-down:
   
-  st.multiselect('choose a planet',['Jupiter', 'Mars', 'neptune'])
+  st.multiselect('choose an email',['jane@email.com', 'adam@foocorp.io', 'noah@foocorp.io'])
   
   # Displaying code
   
   
   for i in st.multiselect:
-    if i == 'Jupiter':
-      st.write('Hi Jupyter')
+    if i.email == 'noah@foocorp.io':
+      st.write('Hi Noah')
     else:
-      st.write('Hi everyone except jupyter! ')
+      st.write('Hi everyone except bad noah! ')
 
 
   import streamlit as st
