@@ -94,7 +94,7 @@ finally:
   
   st.area_chart(df1['Worth'])
   
-  st.altair_chart(x=df1['Worth'], y=df1['Year'])
+  st.altair_chart(df1['Year'])
      
 
 
