@@ -1,4 +1,8 @@
-# To Upload the stramlit logo:
+# Streamlit Documentation: https://docs.streamlit.io/library/api-reference
+
+# Streamlit Cheatsheet: https://www.datacamp.com/tutorial/streamlit & https://docs.streamlit.io/library/cheatsheet
+
+# To Upload the streamlit logo:
 try:
   from PIL import Image
   logo = Image.open('https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.svg')
@@ -76,6 +80,13 @@ finally:
   # To create a drop-down:
   
   st.multiselect('choose a planet',['Jupiter', 'Mars', 'neptune'])
+  
+  # Displaying code
+  with st.multiselect == 'Jupiter':
+    st.write('Hi Jupyter')
+  else:
+    st.write('Hi everyone except jupyter! ')
+
 
  
   
