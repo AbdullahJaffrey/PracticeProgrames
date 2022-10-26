@@ -18,7 +18,18 @@ finally:
   
   import streamlit as st
   
+  # To upload a picture:
+  
   st.image("https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.svg")
+  
+  # To upload a video:
+  
+  st.video("https://static.videezy.com/system/resources/previews/000/004/299/original/23.mp4")
+  
+  # To upload a picture:
+  
+  st.audio("https://soundcloud.com/9j6hz3zlokbb/jotaro-vs-dio-part-1?in=user-276538827/sets/random-audio-clips&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing")
+
 
   # To create title in streamlit:
 
