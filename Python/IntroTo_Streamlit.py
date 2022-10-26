@@ -1,5 +1,8 @@
+!['Streamlit Logo']('https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.svg')
+
 # To Install streamlit into your system: pip install streamlit
 # To test if the installation is working or not : streamlit hello
+# How to run your Streamlit code: streamlit run file_name.py
 
 # To Import streamlit into your system:
 
