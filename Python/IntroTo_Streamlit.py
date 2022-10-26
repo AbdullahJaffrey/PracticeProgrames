@@ -17,6 +17,8 @@ except Exception as e:
 finally:
   
   import streamlit as st
+  
+  st.image("https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.svg")
 
   # To create title in streamlit:
 
