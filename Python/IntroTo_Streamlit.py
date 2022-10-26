@@ -1,4 +1,5 @@
 # To Upload the stramlit logo:
+try:
 from PIL import Image
 
 logo = Image.open('https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.svg')
@@ -12,7 +13,11 @@ print(logo)
 # How to run your Streamlit code: streamlit run file_name.py
 
 # To Import streamlit into your system:
-
+except Exception as e:
+  # e
+  
+finally:
+  
 import streamlit as st
 
 # To create title in streamlit:
