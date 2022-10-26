@@ -89,7 +89,7 @@ finally:
   df= pd.DataFrame(np.random.randn(10, 2), columns=['x', 'y'])
   st.line_chart(df)
   
-  df1 = pd.DataFrame{'Name':['Abdullah', 'Noah','Salis'],'Worth':[106, 612, 212], 'Year':['2007', '2022','1995']}
+  df1 = pd.DataFrame({'Name':['Abdullah', 'Noah','Salis'],'Worth':[106, 612, 212], 'Year':['2007', '2022','1995']})
   print(df1.head())
   
   st.area_chart(df1)
