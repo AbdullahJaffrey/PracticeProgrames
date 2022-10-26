@@ -84,7 +84,7 @@ finally:
   # Displaying code
   
   
-  for i in st.multiselect.planet:
+  for i in st.multiselect.values():
     if i == 'Jupiter':
       st.write('Hi Jupyter')
     else:
