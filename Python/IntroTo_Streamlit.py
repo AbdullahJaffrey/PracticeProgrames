@@ -84,7 +84,7 @@ finally:
   # Displaying code
   
   
-  for i in st.multiselect.values():
+  for i in st.multiselect:
     if i == 'Jupiter':
       st.write('Hi Jupyter')
     else:
